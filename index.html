@@ -8,11 +8,26 @@
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+.stendy{
+  padding: 6px;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+}
+.stendy1{
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+  font-size: 0.6em;
+  height: 2em;
+}
 </style>
 <body class="w3-content" style="max-width:1200px;">
 
@@ -28,7 +43,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
       Hijab <i class="fa fa-caret-down"></i>
     </a>
     <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Skinny</a>
+      <a href="#" class="w3-bar-item w3-button w3-yellow"><i class="fa fa-caret-right w3-margin-right"></i>Skinny</a>
       <a href="#" class="w3-bar-item w3-button">Relaxed</a>
       <a href="#" class="w3-bar-item w3-button">Bootcut</a>
       <a href="#" class="w3-bar-item w3-button">Straight</a>
@@ -37,7 +52,6 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
   </div>
   <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
-  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
 </nav>
 
 <!-- Top menu on small screens -->
@@ -53,20 +67,20 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 <div class="w3-main" style="margin-left:250px">
 
   <!-- Push down content on small screens -->
-  <div class="w3-hide-large" style="margin-top:83px"></div>
+<div class="w3-hide-large" style="margin-top:83px"></div>
   
   <!-- Top header -->
   <header class="w3-container w3-xlarge">
-    <p class="w3-left">FaHijab Fashion</p>
+    <p class="w3-left" style="font-family: Pacifico, sans-serif; font-size: 1em">FaHijab Fashion</p>
     <p class="w3-right">
-      <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <a class="fa fa-shopping-cart w3-margin-right"></a>
       <a class="fa fa-search"></a>
     </p>
   </header>
 
   <!-- Image header -->
   <div class="w3-display-container w3-container">
-    <img src="img/jeans.jpg" alt="Jeans" style="width:100%">
+    <img src="img/index.jpg" alt="Jeans" style="width:100%">
     <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
       <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
       <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
@@ -90,12 +104,12 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
         <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
       </div>
       </div>
-      <p>Cornskin Square<br><b>$24.99</b></p>
+      <p>Cornskin Square<br><b>Rp.150.000</b></p>
       </div>
       <div class="w3-container">
         <img src="img/cornskin square.png" style="width:100%;height:200px">
 
-        <p>Cornskin Square<br><b>$19.99</b></p>
+        <p>Cornskin Square<br><b>Rp.150.000</b></p>
       </div>
     </div>
 
@@ -108,18 +122,23 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
             <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p>Mega Ripped Jeans<br><b>Rp.150.000</b></p>
       </div>
       <div class="w3-container">
-        <img src="img/cornskin square.png" style="width:100%;height:200px">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <div class="w3-display-container">
+        <img src="img/cornskin square.png" style="width:100%; height:200px">
+      <div class="w3-display-middle w3-display-hover">
+        <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+      </div>
+      </div>
+        <p>Cornskin Square<br><b>Rp.150.000</b></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="img/cornskin square.png" style="width:100%;height:200px">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p>Cornskin Square<br><b>Rp.150.000</b></p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -129,18 +148,18 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
             <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <p>Voal Miracle<br><b class="w3-text-red">Rp.150.000</b></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="img/voal miracle.png" style="width:100%;height:200px">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+        <p>Voal Miracle<br><b>Rp.150.000</b></p>
       </div>
       <div class="w3-container">
         <img src="img/voal miracle.png" style="width:100%;height:200px">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p>Ripped Skinny Jeans<br><b>Rp.150.000</b></p>
       </div>
     </div>
   </div>
@@ -149,12 +168,17 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="img/cornskin square.png" style="width:100%; height:200px">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p>Ripped Skinny Jeans<br><b>Rp.150.000</b></p>
       </div>
       <div class="w3-container">
-        <img src="img/cornskin square.png" style="width:100%;height:200px">
-
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <div class="w3-display-container">
+          <img src="img/cornskin square.png" style="width:100%;height:200px">
+          <span class="w3-tag w3-display-topleft">New</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Mega Ripped Jeans<br><b>Rp.150.000</b></p>
       </div>
     </div>
 
@@ -167,18 +191,24 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
             <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Mega Ripped Jeans<br><b>$19.99</b></p>
+        <p>Mega Ripped Jeans<br><b>Rp.150.000</b></p>
       </div>
       <div class="w3-container">
         <img src="img/cornskin square.png" style="width:100%;height:200px">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <p>Cornskin Square<br><b>Rp.150.000</b></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
-        <img src="img/cornskin square.png" style="width:100%;height:200px">
-        <p>Washed Skinny Jeans<br><b>$20.50</b></p>
+        <div class="w3-display-container">
+          <img src="img/cornskin square.png" style="width:100%;height:200px">
+          <span class="w3-tag w3-display-topleft">New</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Cornskin Square<br><b>Rp.150.000</b></p>
       </div>
       <div class="w3-container">
         <div class="w3-display-container">
@@ -188,18 +218,18 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
             <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
           </div>
         </div>
-        <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p>
+        <p>Voal Miracle<br><b class="w3-text-red">Rp.150.000</b></p>
       </div>
     </div>
 
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="img/voal miracle.png" style="width:100%;height:200px">
-        <p>Vintage Skinny Jeans<br><b>$14.99</b></p>
+        <p>Voal Miracle<br><b>Rp.150.000</b></p>
       </div>
       <div class="w3-container">
         <img src="img/voal miracle.png" style="width:100%;height:200px">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p>Ripped Skinny Jeans<br><b>Rp.150.000</b></p>
       </div>
     </div>
   </div>
